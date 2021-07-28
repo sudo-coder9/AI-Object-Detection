@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <title>
+            Result
+        </title>
+    </head>
+    <body>
+        <h1>Results/h1>
+            <h4>Predictions:</h4>
+{% for r,p in res %}
+    {{r}}  {{p}}%<br/>
+{% endfor %}
+    </body>
+</html>
